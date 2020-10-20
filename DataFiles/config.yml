@@ -1,0 +1,23 @@
+#
+# Copyright 2018-2020 VMware, Inc.
+# SPDX-License-Identifier: BSD-2-Clause
+#
+
+MYSQL_PROD:
+  user: user
+  password: password
+  host: some_db_server.com
+  port: 3306
+  db: db_name_goes_here
+
+FILES:
+  logging: log.txt
+  vco_list: DataFiles/vco_list.yml
+  countries: DataFiles/country.json
+
+SLACK:
+  url: some_slack_webhook_url.slack.com
+
+MAXMIND:
+  account_id: 98765
+  license_key: some_key

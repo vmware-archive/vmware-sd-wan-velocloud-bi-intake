@@ -1,0 +1,23 @@
+#
+# Copyright 2018-2020 VMware, Inc.
+# SPDX-License-Identifier: BSD-2-Clause
+#
+
+some_vco1:
+  name: some_vco1
+  partner: null
+  skip: false
+  comment: null
+  link: some_vcol1.somecompany.net
+  username: user@somecompany.net
+  password: password
+  token: null
+some_vco2:
+  name: some_vco2
+  partner: null
+  skip: false
+  comment: null
+  link: some_vcol2.somecompany.net
+  username: user@somecompany.net
+  password: password
+  token: null
