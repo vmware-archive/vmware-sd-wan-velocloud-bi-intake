@@ -251,7 +251,7 @@ def gateway_update_process(client, mycursor, VCO_CUSTOMER_EDGE):
       start_new = current_time  - timedelta(hours=24)
       try:
        kwargs = {"timeout": 200}
-       params = { "gatewayId": gw["id"] ,"interval": {"start": 1587894305424 }, "metrics": ["cpuPct", "memoryPct", "flowCount", "handoffQueueDrops", "tunnelCount"] }
+       params = { "gatewayId": gw["id"] ,"interval": {"start": start_new }, "metrics": ["cpuPct", "memoryPct", "flowCount", "handoffQueueDrops", "tunnelCount"] }
        get_met = client.call_api('metrics/getGatewayStatusMetrics', params, **kwargs)
        #print json.dumps(get_met, indent=4, sort_keys=True)
        local_logger.info ("Gateway Metrics API call pulled")
