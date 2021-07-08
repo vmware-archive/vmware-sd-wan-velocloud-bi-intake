@@ -53,4 +53,4 @@ slack_webhook == 1.0.3
 
 # powerbi-repo/gateway_script.py: 14
 # powerbi-repo/inventory_sla.py: 7
-urllib3 == 1.25.10
+urllib3 >= 1.26.5
