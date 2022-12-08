@@ -15,7 +15,7 @@ PyYAML == 5.4.1
 
 # powerbi-repo/gateway_script.py: 15
 # powerbi-repo/powerbi_main_fun.py: 21
-certifi == 2020.6.20
+certifi == 2022.12.7
 
 # powerbi-repo/gateway_script.py: 17
 # powerbi-repo/powerbi_main_fun.py: 22
